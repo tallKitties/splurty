@@ -13,6 +13,10 @@ h2 {
   padding-left: 25px;
 }
 
+.about {
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+}
+
 .clear {
   clear: both;
 }
@@ -51,9 +55,10 @@ h2 {
   border-bottom: 1px solid #ddd;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
+  margin-right: 26px;
 }
 
-.logo:hover, .next-quote:hover {
+a:hover {
   text-decoration: none;
 }
 
