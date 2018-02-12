@@ -1,6 +1,16 @@
 @import "bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
 
+@viewport {
+  zoom: 1.0;
+  width: extend-to-zoom;
+}
+
+@-ms-viewport {
+  width: extend-to-zoom;
+  zoom: 1.0;  
+}
+
 a:hover {
   text-decoration: none;
 }
